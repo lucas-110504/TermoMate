@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title> TermoMate</title>
+    <link rel="icon" href="img/logos/termo.png" type="image/png" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="script.js"></script>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="img/logos/termo.png" alt="Logo" width="30" height="30" class="me-2">
+        TermoMate
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+  <li class="nav-item"><a class="nav-link" href="#productos">Nuestros Productos</a></li>
+  <li class="nav-item"><a class="nav-link" href="#personalizacion">Personalización</a></li>
+  <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+</ul>
+       
+
+  <div class="d-none d-lg-block ms-3">
+    <a href="login.html" class="btn btn-unirse">Unirse</a>
+  </div>
+
+  <!-- Botón para móviles -->
+  <div class="d-lg-none mt-3">
+    <a href="login.html" class="btn btn-unirse">Unirse</a>
+  </div>
+
+    </div>
+    </div>
+      </div>
+
+      
+  </nav>
+
+<!-- Carrusel -->
+<div id="carouselExampleSlide" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/ImgCarusel/img2.jpg" class="d-block w-100" alt="Imagen 1" />
+    </div>
+    <div class="carousel-item">
+      <img src="img/ImgCarusel/img4.jpg" class="d-block w-100" alt="Imagen 2" />
+    </div>
+    <div class="carousel-item">
+      <img src="img/ImgCarusel/img5.jpg" class="d-block w-100" alt="Imagen 3" />
+    </div>
+     <div class="carousel-item">
+      <img src="img/ImgCarusel/img1.jpg" class="d-block w-100" alt="Imagen 4" />
+    </div>
+     <div class="carousel-item">
+      <img src="img/ImgCarusel/img3.jpg" class="d-block w-100" alt="Imagen 5" />
+    </div>
+     <div class="carousel-item">
+      <img src="img/ImgCarusel/img6.jpg" class="d-block w-100" alt="Imagen 6" />
+    </div>
+      <div class="carousel-item">
+      <img src="img/ImgCarusel/img7.jpg" class="d-block w-100" alt="Imagen 7" />
+    </div>
+      <div class="carousel-item">
+      <img src="img/ImgCarusel/img8.jpg" class="d-block w-100" alt="Imagen 8" />
+    </div>
+    </div>
+      <div class="carousel-item">
+      <img src="img/ImgCarusel/aluminum-disemboweler3000-qy8cnMTeXzg-unsplash.jpg class="d-block w-100" alt="Imagen 8" />
+    </div>
+      <div class="carousel-caption-custom text-center">
+    <h1 class="display-4 fw-bold">TermoMate</h1>
+    <p class="lead">
+      En TermoMate, nos enorgullecemos de ofrecer termos y mates elaborados con materiales de la más alta calidad. 
+      Nuestros productos combinan funcionalidad y estilo.
+    </p>
+  </div>
+  </div>
+
+ 
+
+
+</div>
+
+<section class="productos container my-5" id="productos">
+  <div class="text-center mb-4">
+    <h2 class="fw-bold">Productos</h2>
+ <p class="text-muted" style="font-family: 'Kotta One', serif; font-size: 1.2rem;">
+  Descubre nuestra variedad de termos y mates personalizados.
+</p>
+  </div>
+
+
+  
+<div class="row row-cols-1 row-cols-md-2 g-4 row-cols-lg-3 " data-aos="fade-up">
+    <!-- Producto -->
+    <div class="col" >
+      <div class="card h-100 text-center">
+        <img src="img/imgProductos/img1.png" class="card-img-top" alt="Termo de Acero">
+        <div class="card-body">
+          <h5 class="card-title">Termo de Acero</h5>
+          <p class="card-text">$69.999</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Repite este bloque para cada producto -->
+    <div class="col">
+      <div class="card h-100 text-center">
+        <img src="img/imgProductos/img2.png" class="card-img-top" alt="Mate Personalizado">
+        <div class="card-body">
+          <h5 class="card-title">Mate Personalizado</h5>
+          <p class="card-text">$15.600</p>
+        </div>
+      </div>
+    </div>
+     <div class="col">
+      <div class="card h-100 text-center">
+        <img src="img/imgProductos/img3.png" class="card-img-top" alt="Mate Personalizado">
+        <div class="card-body">
+          <h5 class="card-title">Termo Stanley </h5>
+          <p class="card-text">$120.000</p>
+        </div>
+      </div>
+    </div>
+     <div class="col mt-5">
+      <div class="card h-100 text-center">
+        <img src="img/imgProductos/img4.jpg" class="card-img-top" alt="Mate Personalizado">
+        <div class="card-body">
+          <h5 class="card-title">Mate de Ceramica</h5>
+          <p class="card-text">$10.990</p>
+        </div>
+      </div>
+    </div>
+     <div class="col mt-5">
+      <div class="card h-100 text-center">
+        <img src="img/imgProductos/img5.png" class="card-img-top" alt="Mate Personalizado">
+        <div class="card-body">
+          <h5 class="card-title">Mate de Calabaza</h5>
+          <p class="card-text">$23.990</p>
+        </div>
+      </div>
+    </div>
+     <div class="col mt-5">
+      <div class="card h-100 text-center">
+        <img src="img/imgProductos/img6.png" class="card-img-top" alt="Mate Personalizado">
+        <div class="card-body">
+          <h5 class="card-title">Mate de Algarrobo</h5>
+          <p class="card-text">$20.000</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Más productos... -->
+  </div>
+
+  <div class="text-center mt-4">
+    <button class="btn btn-dark">Ver más</button>
+  </div>
+</section>
+
+
+
+<section class="hero-section d-flex align-items-center"  id="personalizacion" >
+  <div class="container-fluid px-0" >
+   <div class="row g-0 flex-column flex-lg-row">
+      
+      <!-- Carrusel de imágenes -->
+       <div class="col-lg-6 d-flex align-items-center bg-light order-lg-1 order-2">
+        <div id="heroCarousel" class="carousel slide w-100" data-bs-ride="carousel" data-bs-interval="3000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/hed/camila-seves-espasandin-wVWlQaNSOeM-unsplash.jpg" class="d-block w-100 img-fluid object-fit-cover" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+              <img src="img/hed/lautaro-andreani-JT36O_XBGJ0-unsplash.jpg" class="d-block w-100 img-fluid object-fit-cover" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+              <img src="img/hed/luca-lo-tartaro-CQGmifS-tZw-unsplash.jpg" class="d-block w-100 img-fluid object-fit-cover" alt="Imagen 3">
+            </div>
+            <div class="carousel-item">
+              <img src="img/hed/malen-almonacid-trossi-2shM4jEAqVY-unsplash.jpg" class="d-block w-100 img-fluid object-fit-cover" alt="Imagen 3">
+            </div>
+            <div class="carousel-item">
+              <img src="img/hed/oleg-bilyk-z_nk4ZFss5s-unsplash.jpg" class="d-block w-100 img-fluid object-fit-cover" alt="Imagen 3">
+            </div>
+            <div class="carousel-item">
+              <img src="img/hed/magbis-amin-cCC4s5F0g40-unsplash.jpg" class="d-block w-100 img-fluid object-fit-cover" alt="Imagen 3">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Texto -->
+ <div class="col-lg-6 d-flex align-items-center order-lg-2 order-1 bg-custom">
+        <div class="text-container w-100 px-4 py-5">
+      <h2 class="fw-bold display-4 mb-3 mb-md-4 mb-lg-5">Termos y mates personalizados para vos</h2>
+           <p class="mb-4 mt-2">
+    Descubre nuestra variedad de termos y mates, ideales para mantener tus bebidas a la temperatura perfecta.
+    Personaliza tu mate y hacelo único, reflejando tu estilo y personalidad.
+  </p>
+          <div class="btn-grid mt-4">
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-dark px-4 py-2 fw-semibold">Explorar</a>
+ <a href="#contacto" class="btn px-4 py-2 fw-semibold" style="background-color: rgb(230, 230, 230); color: #000;">Contacto</a>
+</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="galeria ">
+  <div class="container">
+    <h2 class="text-center text-white mb-5">Galería de Imágenes</h2>
+    <div class="row g-4">
+      
+      <!-- Carrusel Grande -->
+   <div class="col-12 col-lg-6">
+        <div class="galeria-item grande h-100">
+          <div id="carouselGrande" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/imggaleria/img4.webp" class="d-block w-100 img-fluid" alt="Mate grande 4">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Carruseles pequeños -->
+ <div class="col-12 col-lg-6 d-flex flex-column gap-4">
+  
+  <!-- Carrusel Pequeño 1 -->
+  <div class="galeria-item pequeño flex-fill">
+    <div id="carouselPequeno1" class="carousel slide h-100" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-inner h-100">
+        <div class="carousel-item active h-100">
+          <img src="img/imggaleria/leopardo.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Mate pequeño 1a">
+        </div>
+        <div class="carousel-item h-100">
+          <img src="img/imggaleria/img5.webp" class="d-block w-100 h-100 object-fit-cover" alt="Mate pequeño 1b">
+        </div>
+        <div class="carousel-item h-100">
+          <img src="img/imggaleria/img6.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Mate pequeño 1c">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carrusel Pequeño 2 -->
+  <div class="galeria-item pequeño flex-fill">
+    <div id="carouselPequeno2" class="carousel slide h-100" data-bs-ride="carousel" data-bs-interval="4000">
+      <div class="carousel-inner h-100">
+        <div class="carousel-item active h-100">
+          <img src="img/imggaleria/img7.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Mate pequeño 2a">
+        </div>
+        <div class="carousel-item h-100">
+          <img src="img/imggaleria/rojo.webp" class="d-block w-100 h-100 object-fit-cover" alt="Mate pequeño 2b">
+        </div>
+        <div class="carousel-item h-100">
+          <img src="img/imggaleria/img9.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Mate pequeño 2c">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="contacto d-flex align-items-center justify-content-center text-center" style="height: 700px;" id="contacto">
+  <div class="container">
+    <h2 class="mb-4 fw-bold " style="height: 100px;">Contactanos</h2>
+    <div class="row">
+      
+      <!-- Correo -->
+      <div class="col-md-4">
+        <div class="contacto-item">
+          <div class="icono mb-3">
+            <img src="img/logos/correo-electronico.png" alt="Icono Correo" class="icono-img">
+          </div>
+          <h4 class="fw-semibold">Correo</h4>
+          <p>TermoMate@gmail.com</p>
+        </div>
+      </div>
+
+      <!-- Teléfono -->
+      <div class="col-md-4">
+        <div class="contacto-item">
+          <div class="icono mb-3">
+            <img src="img/logos/llamarIcono.png" alt="Icono Teléfono" class="icono-img">
+          </div>
+          <h4 class="fw-semibold">Teléfono</h4>
+          <p>+54 1234-567891</p>
+        </div>
+      </div>
+
+      <!-- Dirección -->
+      <div class="col-md-4">
+        <div class="contacto-item">
+          <div class="icono mb-3">
+            <img src="img/logos/mapas-y-banderas.png" alt="Icono Dirección" class="icono-img">
+          </div>
+          <h4 class="fw-semibold">Dirección</h4>
+          <p>Av. de los Terros 456, Buenos Aires, AR</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="contact-section d-flex align-items-center justify-content-center" style="min-height: 100vh;" data-aos="fade-up">
+  <div class="container" style="max-width: 600px;">
+    <h2 class="text-center mb-4">Envíanos un Mensaje</h2>
+    <form class="contact-form">
+      <div class="row g-3">
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="mb-3">
+            <label for="nombre" class="form-label text-black">Nombre</label>
+            <input type="text" id="nombre" class="form-control" />
+            <small id="error-nombre" class="text-danger"></small>
+          </div>
+        </div>
+        <div class="col-md-6" data-aos="fade-left">
+          <div class="mb-3">
+            <label for="apellido" class="form-label text-black">Apellido</label>
+            <input type="text" id="apellido" class="form-control" />
+            <small id="error-apellido" class="text-danger"></small>
+          </div>
+        </div>
+        <div class="col-12" data-aos="fade-up">
+          <div class="mb-3">
+            <label for="email" class="form-label text-black">Dirección Email</label>
+            <input type="email" id="email" class="form-control" />
+            <small id="error-email" class="text-danger"></small>
+          </div>
+        </div>
+        <div class="col-12" data-aos="fade-up">
+          <div class="mb-3">
+            <label for="mensaje" class="form-label text-black">Mensaje</label>
+            <textarea id="mensaje" class="form-control" rows="5" maxlength="300"></textarea>
+            <small id="error-mensaje" class="text-danger d-block"></small>
+            <small id="contador-caracteres" class="text-muted"></small>
+          </div>
+        </div>
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-dark px-4 py-2 shadow rounded">Enviar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer mt-5">
+  <div class="container-fluid py-4 text-white">
+    <div class="row text-center text-md-start">
+      <div class="col-md-3 mb-3 mb-md-0">
+        <img src="img/logos/termo.png" alt="Logo" style="height: 40px;" />
+      </div>
+
+      <div class="col-md-3">
+        <h6><a href="#" class="text-decoration-none text-white">Sobre Nosotros</a></h6>
+        <a href="#" class="small text-decoration-none text-white">© 2025. All rights reserved.</a>
+      </div>
+
+      <div class="col-md-3">
+        <h6><a href="#" class="text-decoration-none text-white">Productos</a></h6>
+        <a href="#" class="small text-decoration-none text-white">Política de Privacidad</a>
+      </div>
+
+      <div class="col-md-3">
+        <h6><a href="#" class="text-decoration-none text-white">Personalización</a></h6>
+        <a href="#" class="small text-decoration-none text-white">Términos de Servicios</a>
+        <div class="d-flex justify-content-center justify-content-md-start gap-3 mt-2">
+          <a href="https://www.instagram.com" target="_blank">
+            <img src="img/logos/instagram.png" alt="Instagram" style="height: 24px; width: 24px;" />
+          </a>
+          <a href="https://wa.me/1234567890" target="_blank">
+            <img src="img/logos/social.png" alt="WhatsApp" style="height: 24px; width: 24px;" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body>
+</html>
